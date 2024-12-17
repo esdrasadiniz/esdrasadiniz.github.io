@@ -56,7 +56,7 @@ nav a:hover {
     transition: transform 80ms cubic-bezier(.49,.41,.43,2.63), background-color 80ms linear;
 }
 
-#button:hover {
+.button:hover {
     background-color: #edc68e;
     transform: scale(1.08);
     color: #FFF;
