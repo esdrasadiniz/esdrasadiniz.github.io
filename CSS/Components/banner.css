@@ -1,0 +1,19 @@
+#box-menu {
+    display: inline-flex;
+    padding: 80px;
+    flex-direction: column;
+}
+
+#bannernav {
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.banner {
+    background-image: url(../../assets/img/photo\ banner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+    border-bottom: 10px solid #000;
+}
