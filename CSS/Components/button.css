@@ -2,11 +2,12 @@
     display: inline-block;
     background-color: #E6626F;
     height: 60px;
+    width: 170px;
     padding: 0 20px;
     box-shadow: 5px 5px 0 black;
     margin-right: 0;
     text-align: center;
-    transition: transform 80ms cubic-bezier(.49,.41,.43,2.63), background-color 80ms linear;
+    transition: transform 80ms cubic-bezier(.49,.41,.43,2.63), background-color 50ms linear;
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
