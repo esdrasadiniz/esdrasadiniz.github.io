@@ -18,11 +18,11 @@ header img:hover {
     transform: scale(2);
 }
 
-header nav { 
+nav { 
     text-align: right;
 }
 
-header nav a {
+nav a {
     color: white;
     font-family: "Fira Code", Arial, Helvetica, sans-serif;
     font-size: 20px;
