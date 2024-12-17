@@ -20,7 +20,7 @@
    * Remove the margin in all browsers.
    */
   
-  body {
+  body, h1 ,h2, h3 {
     margin: 0;
   }
   
@@ -347,3 +347,15 @@
   [hidden] {
     display: none;
   }
+
+  /*OBS E ESTUDO
+    AS TAGS TENTE EDITAR E UTILIZAR PREFERIVELMENTE NO RESET!
+    UTILIZE MAIS AS CLASS PARA PADRONIZAR ELEMENTOS NO SITE PARA FACILITAR MANUTENÇÃO     
+  */
+button {
+  border: none;
+}
+
+body {
+  font-family: "Fira Code", Arial, Helvetica, sans-serif;
+}
