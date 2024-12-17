@@ -1,16 +1,3 @@
-#box-menu {
-    display: inline-flex;
-    margin-top: 115px;
-    margin-left: 90px;;
-    flex-direction: column;
-}
-
-#bannernav {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 40px;
-}
-
 .banner {
     background-image: url(../../assets/img/photo\ banner.png);
     background-repeat: no-repeat;
