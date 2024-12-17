@@ -1,21 +1,9 @@
-.title {
-    display: inline-flex;
-    background-color: #3A4042;
-    padding: 20px 40px;
-    box-shadow: 10px 10px 0 black;
-    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    align-items: center;
-    flex-direction: column;
-    text-shadow: 5px 5px 0 black;
-    
-}
-
 h1 {
     color: #E6626F;
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     font-size: 40px;
     line-height: 40px;
+    text-shadow: 5px 5px 0 black;
 }
 
 .banner {

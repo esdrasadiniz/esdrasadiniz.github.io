@@ -1,0 +1,8 @@
+#box{
+    display: inline-flex;
+    background-color: #3A4042;
+    padding: 20px 40px;
+    box-shadow: 10px 10px 0 black;
+    align-items: center;
+    flex-direction: column;
+}
