@@ -1,0 +1,22 @@
+
+.textbar h4 {
+    display: inline;
+}
+
+.textbar {
+    text-align: left;
+    display: inline-block;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+
+}
+
+.skill {
+    display: inline-flex;
+    flex-direction: row;
+    height: 90px;
+}
+
