@@ -1,11 +1,12 @@
 #box-menu {
     display: inline-flex;
-    padding: 80px;
+    margin-top: 115px;
+    margin-left: 90px;;
     flex-direction: column;
 }
 
 #bannernav {
-    display: inline-flex;
+    display: flex;
     justify-content: space-evenly;
     margin-top: 40px;
 }
