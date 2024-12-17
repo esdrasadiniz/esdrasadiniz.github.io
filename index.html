@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Marco Bruno</title>
-    <!-- Link da fonte google. !! Antes do CSS, SEMPRE!-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
-
+    <!-- Link das fontes google. !! Antes do CSS, SEMPRE!-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/Components/title.css">
 </head>
 <body>
     <header>
@@ -21,16 +22,20 @@
             <a href="">Projetos</a>
             <a href="">Sobre</a>
             <a href="">Contatos</a>
-            <a href="" lang="en" class="button">Download CV</a>
+            <a href="" lang="en" id="button">Download CV</a>
         </nav>
     </header>
-    <section>
-        <h1>Marco Bruno</h1>
-        <h2>FrontEnd Developer</h2>
-        <nav>
-            <a href="" class="button">Download CV</a>
-            <a href="" class="button">Contatos</a>
-        </nav>
+    <section id="bannerimg">
+        <section class="banner">
+            <div class="title">
+                <h1>Marco Bruno</h1> 
+                <h2>FrontEnd Developer</h2>
+            </div>
+            <nav id="bannernav">
+                <a href="" class="button">Download CV</a>
+                <a href="" class="button">Contatos</a>
+            </nav>
+        </section>
     </section>
 </body>
 </html>
