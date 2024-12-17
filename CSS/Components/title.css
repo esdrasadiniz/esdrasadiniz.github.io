@@ -6,7 +6,7 @@ h1 {
     text-shadow: 5px 5px 0 black;
 }
 
-.banner {
+#banner {
     display: inline-flex;
     padding: 80px;
     flex-direction: column;
