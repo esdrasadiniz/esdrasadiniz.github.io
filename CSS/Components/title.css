@@ -4,4 +4,10 @@
     font-size: 40px;
     line-height: 40px;
     text-shadow: 5px 5px 0 black;
+    text-align: center;
+}
+
+.title.-second {
+    color: white;
+    text-shadow: none;
 }
