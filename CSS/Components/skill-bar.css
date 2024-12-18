@@ -1,0 +1,147 @@
+.progress-bar {
+    width: 100%;
+    background-color: #FFF;
+    border: 6px solid black;
+    overflow: hidden;
+    height: 28px;
+}
+
+/* Keyframes específicos para cada barra */
+
+@keyframes progress-html {
+    from {
+        width: 0;
+    }
+    to {
+        width: 75%;
+    }
+}
+
+@keyframes progress-css {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes progress-js {
+    from {
+        width: 0;
+    }
+    to {
+        width: 7%;
+    }
+}
+
+@keyframes progress-react {
+    from {
+        width: 0;
+    }
+    to {
+        width: 15%;
+    }
+}
+
+@keyframes progress-nodejs {
+    from {
+        width: 0;
+    }
+    to {
+        width: 61%;
+    }
+}
+
+@keyframes progress-tdd {
+    from {
+        width: 0;
+    }
+    to {
+        width: 35%;
+    }
+}
+
+@keyframes progress-restapi {
+    from {
+        width: 0;
+    }
+    to {
+        width: 15%;
+    }
+}
+
+@keyframes progress-ux {
+    from {
+        width: 0;
+    }
+    to {
+        width: 43%;
+    }
+}
+
+/* Aplicando animações específicas */
+
+.progress-html {
+    animation: progress-html 2s ease-in-out forwards;
+    animation-delay: 0.1s;
+    height: 100%;
+    background-color: #4c838d;
+    width: 0;
+}
+
+.progress-css {
+    animation: progress-css 2s ease-in-out forwards;
+    animation-delay: 0.3s;
+    height: 100%;
+    background-color: #4c838d;
+    width: 0;
+}
+
+.progress-js {
+    animation: progress-js 2s ease-in-out forwards;
+    animation-delay: 0.5s;
+    height: 100%;
+    background-color: #4c838d;
+    width: 0;
+}
+
+.progress-react {
+    animation: progress-react 2s ease-in-out forwards;
+    animation-delay: 0.7s;
+    height: 100%;
+    background-color: #4c838d;
+    width: 0;
+}
+
+.progress-nodejs {
+    animation: progress-nodejs 2s ease-in-out forwards;
+    animation-delay: 1s;
+    height: 100%;
+    background-color: #4c838d;
+    width: 0;
+}
+
+.progress-tdd {
+    animation: progress-tdd 2s ease-in-out forwards;
+    animation-delay: 1.3s;
+    height: 100%;
+    background-color: #4c838d;
+    width: 0;
+}
+
+.progress-restapi {
+    animation: progress-restapi 2s ease-in-out forwards;
+    animation-delay: 1.5s;
+    height: 100%;
+    background-color: #4c838d;
+    width: 0;
+}
+
+.progress-ux {
+    animation: progress-ux 2s ease-in-out forwards;
+    animation-delay: 1.7s;
+    height: 100%;
+    background-color: #4c838d;
+    width: 0;
+}

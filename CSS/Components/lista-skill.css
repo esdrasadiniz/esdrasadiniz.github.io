@@ -1,5 +1,6 @@
 .lista-skill {
-    width: 960px;
+    box-sizing: border-box;
+    width: 1002px;
     height: 480px;
     display: grid;
     grid-template-columns: 1fr 1fr;
