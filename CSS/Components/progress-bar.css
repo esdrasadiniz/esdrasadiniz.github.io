@@ -7,20 +7,6 @@
     -webkit-appearance: none;
 }
 
-.progress-bar::-webkit-progress-bar {
-    background-color: #4c838d;
-}
-
-.progress-bar::-webkit-progress-value {
-    background-color: #4c838d;
-    transition: width 2s ease-in-out;
-}
-
-.progress-bar::-moz-progress-bar {
-    background-color: #4c838d;
-    transition: width 2s ease-in-out;
-}
-
 /* Keyframes específicos para cada barra */
 
 @keyframes progress-html {
@@ -41,7 +27,7 @@
     }
 }
 
-@keyframes progress-js {
+@keyframes progress-javascript {
     from {
         width: 0;
     }
@@ -113,8 +99,8 @@
     width: 0;
 }
 
-.progress-js {
-    animation: progress-js 2s ease-in-out forwards;
+.progress-javascript {
+    animation: progress-javascript 2s ease-in-out forwards;
     animation-delay: 0.5s;
     height: 100%;
     background-color: #4c838d;
