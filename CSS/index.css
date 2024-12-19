@@ -88,4 +88,8 @@ PADDING:
     o padding não vai diminuir o espaço interno do elemento para criar o espaço. 
     Ele funciona aumentando o espaço total para que o respiro aconteça 
     (de forma default do navegador)
+
+TEXT-ALIGN::
+    quando é texto o proprio texto recebe configuração de align
+    mas quando é objeto o pai é quem define
 */
