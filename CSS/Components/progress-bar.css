@@ -84,64 +84,56 @@
 /* Aplicando animações específicas */
 
 .progress-html {
-    animation: progress-html 2s ease-in-out forwards;
-    animation-delay: 0.1s;
+    animation: progress-html 0.8s ease-in-out forwards;
     height: 100%;
     background-color: #4c838d;
     width: 0;
 }
 
 .progress-css {
-    animation: progress-css 2s ease-in-out forwards;
-    animation-delay: 0.3s;
+    animation: progress-css 0.8s ease-in-out forwards;
     height: 100%;
     background-color: #4c838d;
     width: 0;
 }
 
 .progress-javascript {
-    animation: progress-javascript 2s ease-in-out forwards;
-    animation-delay: 0.5s;
+    animation: progress-javascript 0.8s ease-in-out forwards;
     height: 100%;
     background-color: #4c838d;
     width: 0;
 }
 
 .progress-react {
-    animation: progress-react 2s ease-in-out forwards;
-    animation-delay: 0.7s;
+    animation: progress-react 0.8s ease-in-out forwards;
     height: 100%;
     background-color: #4c838d;
     width: 0;
 }
 
 .progress-nodejs {
-    animation: progress-nodejs 2s ease-in-out forwards;
-    animation-delay: 1s;
+    animation: progress-nodejs 0.8s ease-in-out forwards;
     height: 100%;
     background-color: #4c838d;
     width: 0;
 }
 
 .progress-tdd {
-    animation: progress-tdd 2s ease-in-out forwards;
-    animation-delay: 1.3s;
+    animation: progress-tdd 0.8s ease-in-out forwards;
     height: 100%;
     background-color: #4c838d;
     width: 0;
 }
 
 .progress-restapi {
-    animation: progress-restapi 2s ease-in-out forwards;
-    animation-delay: 1.5s;
+    animation: progress-restapi 0.8s ease-in-out forwards;
     height: 100%;
     background-color: #4c838d;
     width: 0;
 }
 
 .progress-ux {
-    animation: progress-ux 2s ease-in-out forwards;
-    animation-delay: 1.7s;
+    animation: progress-ux 0.8s ease-in-out forwards;
     height: 100%;
     background-color: #4c838d;
     width: 0;
