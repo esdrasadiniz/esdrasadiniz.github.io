@@ -45,6 +45,22 @@ nav a:hover {
     color: #edc68e;
 }
 
+header .logo-header {
+    display: inline-flex;
+    align-items: center;
+}
+
+header .title {
+    color: #FFF;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 3px;
+}
+
+header .title:hover {
+    color: #edc68e;
+}
 
 /* PALETA DE CORES
     .azul clarinho { #e4ffd4 };
