@@ -12,14 +12,15 @@
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/Components/main-title.css">
-    <link rel="stylesheet" href="CSS/Components/subtitle.css">
-    <link rel="stylesheet" href="CSS/Components/box.css">
-    <link rel="stylesheet" href="CSS/Components/button.css">
-    <link rel="stylesheet" href="CSS/Components/banner.css">
-    <link rel="stylesheet" href="CSS/Components/skills.css">
-    <link rel="stylesheet" href="CSS/Components/wrap-skills.css">
+    <link rel="stylesheet" href="CSS/Components/main-subtitle.css">
+    <link rel="stylesheet" href="CSS/Components/title-box.css">
+    <link rel="stylesheet" href="CSS/Components/main-button.css">
+    <link rel="stylesheet" href="CSS/Components/banner-section.css">
+    <link rel="stylesheet" href="CSS/Components/main-section.css">
+    <link rel="stylesheet" href="CSS/Components/item-wrap.css">
     <link rel="stylesheet" href="CSS/Components/skill-tec.css">
     <link rel="stylesheet" href="CSS/Components/progress-bar.css">
+    <link rel="stylesheet" href="CSS/Components/project-card.css">
 </head>
 <body>
     <header>
@@ -32,26 +33,26 @@
             <a href="">Projetos</a>
             <a href="">Sobre</a>
             <a href="">Contatos</a>
-            <a href="" lang="en" class="button">Download CV</a>
+            <a href="" lang="en" class="main-button">Download CV</a>
         </nav>
     </header>
 
-    <section class="banner">
-        <div id="box-menu"> 
-            <div id="box">
+    <section class="banner-section">
+        <div class="banner-section-content"> 
+            <div class="title-box">
                 <h1 class="main-title">Esdras Diniz</h1> 
-                <h2 class="subtitle">FrontEnd Developer</h2>
+                <h2 class="main-subtitle">FrontEnd Developer</h2>
             </div>
-            <nav id="bannernav">
-                <a href="" class="button">Download CV</a>
-                <a href="" class="button">Contatos</a>
+            <nav>
+                <a href="" class="main-button">Download CV</a>
+                <a href="" class="main-button">Contatos</a>
             </nav>
         </div>
     </section>
 
-    <section id="skills" class="Skills">
+    <section id="skills" class="main-section -skills">
         <h2 class="main-title -second">Skills</h2>
-        <div class="wrap-skills">
+        <div class="item-wrap -skills">
             <article class="skill-tec">
                 <img src="assets/img/icons/ico_html5.png" alt="logo html" class="icon">
                 <div class="right">
@@ -127,6 +128,15 @@
         </div>
     </section>
     
+    <section id="Projetos" class="main-section -project">
+        <h2 class="main-title -second">Projetos</h2>
+        <div class="item-wrap -project">    
+            <figure class="project-card -firedlabs"><img src="assets/img/projetos/logo-firedlabs.png" alt="Logo firedlabs"></figure>
+            <figure class="project-card -collabcode"><img src="assets/img/projetos/logo-collabcode.png" alt="Logo collabcode"></figure>
+            <figure class="project-card -portifolio"><img src="assets/img/projetos/portfolio.png" alt="Logo portfolio"></figure>
+        </div>    
+    </section>
+
     <script src="JS/progress-bar.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-#box{
+.title-box{
     display: inline-block ;
     background-color: #3A4042;
     padding: 42px 44px;
@@ -6,22 +6,11 @@
     text-align: center;
 }
 
-#box h1 {
+.title-box h1 {
     margin-bottom: 28px;
 }
 
-#box-menu {
-    display: inline-flex;
-    margin-top: 115px;
-    margin-left: 90px;;
-    flex-direction: column;
-}
 
-#bannernav {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 40px;
-}
 
 /* ANTES DE TENTAR O FLEX OU INLINE-FLEX COMO DISPLAY TENTE O INLINE-BLOCK.. 
 GERALMENTE ELE RESOLVE BASTANTE COISA JA

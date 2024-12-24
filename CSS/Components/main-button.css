@@ -1,4 +1,4 @@
-.button {
+.main-button {
     display: inline-block;
     background-color: #E6626F;
     height: 60px;
@@ -14,18 +14,18 @@
     color: #FFF;
 }
 
-.button:hover {
+.main-button:hover {
     background-color: #edc68e;
     transform: scale(1.05);
     color: #FFF;
 }
 
-.button:active {
+.main-button:active {
     transform: scale(1.0); 
     background-color: #E6626F;
     color: #FFF;
 }
 
-.button:hover:not(:active) {
+.main-button:hover:not(:active) {
     transition-delay: 80ms;
 }
