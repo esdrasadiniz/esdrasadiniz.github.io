@@ -1,5 +1,6 @@
 .main-section {
     padding: 60px;
+    scroll-margin-top: 92px; /* Compensa a altura da barra fixa */
 }
 
 .main-section .main-title {
