@@ -28,7 +28,8 @@
 }
 
 .item-wrap.-node-card {
-    width: 100%;
+    display: flex;
+    width: 1700px;
     justify-content: space-between;
     transform: translateX(500px);
     transition: transform 0.3s ease-in-out;
