@@ -67,6 +67,16 @@ header .title:hover {
     color: #edc68e;
 }
 
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+footer img {
+    margin: 20px;
+}
+
 /* PALETA DE CORES
     .azul clarinho { #e4ffd4 };
     .beje { #ebe7a7 };
