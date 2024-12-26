@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="CSS/Components/button-arrow.css">
     <link rel="stylesheet" href="CSS/Components/caroussel-section.css">
     <link rel="stylesheet" href="CSS/Components/node-card.css">
+    <link rel="stylesheet" href="CSS/Components/main-form.css">
 </head>
 <body>
     <header>
@@ -38,7 +39,7 @@
             <a href="#skills" lang="en">Skills</a>
             <a href="#projetos">Projetos</a>
             <a href="#sobre">Sobre</a>
-            <a href="">Contatos</a>
+            <a href="#contatos">Contatos</a>
             <a href="" lang="en" class="main-button">Download CV</a>
         </nav>
     </header>
@@ -200,6 +201,25 @@
         </p>
     </section>
 
+    <section id="contatos" class="main-section -contatos">
+        <form action="" class="main-form" method="get">
+            <legend class="main-title -second">Contatos</legend>
+            <div class="form-item -name">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-item -email">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-item -msg">
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem"></textarea>
+            </div>
+            <button type="submit" class="main-button">Enviar</button>
+        </form>
+    </section>
+    
     <footer>
         <a href=""target="_blank">
             <img src="assets/img/icons/icon-twitter.png" alt="Logo do Twitter">
