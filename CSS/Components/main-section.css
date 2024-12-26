@@ -20,4 +20,10 @@
 .main-section.-sobre {
     background-color: #7C5E99;
     border-bottom: 10px solid black;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.main-section.-sobre .main-text {
+    margin-top: 60px;
 }

@@ -379,3 +379,7 @@ h2 {
   line-height: 30px;
   text-shadow: 5px 5px 0 black;
 }
+
+figure {
+  margin: 0;
+}

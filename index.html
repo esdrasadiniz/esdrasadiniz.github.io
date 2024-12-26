@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="CSS/Components/skill-tec.css">
     <link rel="stylesheet" href="CSS/Components/progress-bar.css">
     <link rel="stylesheet" href="CSS/Components/project-card.css">
+    <link rel="stylesheet" href="CSS/Components/button-arrow.css">
+    <link rel="stylesheet" href="CSS/Components/caroussel-section.css">
+    <link rel="stylesheet" href="CSS/Components/node-card.css">
 </head>
 <body>
     <header>
@@ -142,6 +145,52 @@
 
     <section id="sobre" class="main-section -sobre">
         <h2 class="main-title -second">Sobre</h2>
+
+        <section class="caroussel-section">
+            <button class="button-arrow -left"><span class="content">Voltar</span></button>
+            <div class="visible-caroussel">
+                <div class="item-wrap -node-card">
+                    <figure class="node-card">
+                        <figure-caption class="title">2012</figure-caption>
+                        <div class="logo -locaweb">
+                            <img src="assets/img/icons/logo-locaweb.png" alt="logo locaweb">
+                        </div>    
+                    </figure>
+                    <figure class="node-card">
+                        <figure-caption class="title">2014</figure-caption>
+                        <div class="logo -caelum">
+                            <img src="assets/img/icons/logo-caelum.png" alt="logo caelum">
+                        </div>    
+                    </figure>
+                    <figure class="node-card">
+                        <figure-caption class="title">2016</figure-caption>
+                        <div class="logo -getninjas">
+                            <img src="assets/img/icons/logo-getninjas.png" alt="logo getninjas">
+                        </div>    
+                    </figure>
+                    <figure class="node-card">
+                        <figure-caption class="title">2017</figure-caption>
+                        <div class="logo -caelum">
+                            <img src="assets/img/icons/logo-caelum.png" alt="logo caelum">
+                        </div>    
+                    </figure>
+                    <figure class="node-card">
+                        <figure-caption class="title">2018</figure-caption>
+                        <div class="logo -impulso">
+                            <img src="assets/img/icons/logo-impulso.png" alt="logo impulso">
+                        </div>    
+                    </figure>
+                    <figure class="node-card">
+                        <figure-caption class="title">2019</figure-caption>
+                        <div class="logo -collabcode">
+                            <img src="assets/img/icons/logo-collabcode.png" alt="logo collabcode">
+                        </div>    
+                    </figure>
+                </div>
+            </div>
+            <button class="button-arrow -right"><span class="content">Avançar</span></button>
+        </section>
+
         <p class="main-text">
             Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. 
             Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. 
@@ -152,6 +201,7 @@
     </section>
 
     <script src="JS/progress-bar.js"></script>
+    <script src="JS/main-caroussel.js"></script>
 </body>
 </html>
 
