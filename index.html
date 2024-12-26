@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="CSS/Components/caroussel-section.css">
     <link rel="stylesheet" href="CSS/Components/node-card.css">
     <link rel="stylesheet" href="CSS/Components/main-form.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 </head>
 <body>
     <header>
@@ -202,7 +203,7 @@
     </section>
 
     <section id="contatos" class="main-section -contatos">
-        <form action="" class="main-form" method="get">
+        <form id="main-form" action="" method="post" class="main-form">
             <legend class="main-title -second">Contatos</legend>
             <div class="form-item -name">
                 <label for="name">Nome</label>
@@ -214,10 +215,27 @@
             </div>
             <div class="form-item -msg">
                 <label for="mensagem">Mensagem</label>
-                <textarea name="mensagem" id="mensagem"></textarea>
+                <textarea name="mensagem" id="mensagem" required></textarea>
             </div>
             <button type="submit" class="main-button">Enviar</button>
         </form>
+        <script>
+            // Inicializa o EmailJS com a Public Key
+            emailjs.init("6LFI7jW8QWjXl4Qyc"); // Substitua pela sua Public Key do EmailJS
+    
+            // Adiciona evento ao formulário
+            document.getElementById("main-form").addEventListener("submit", function (event) {
+                event.preventDefault(); // Previne o recarregamento da página
+    
+                // Envia o e-mail usando EmailJS
+                emailjs.sendForm("esdrasdiniz", "formsportifolio", this)
+                    .then(function () {
+                        alert("Mensagem enviada com sucesso!");
+                    }, function (error) {
+                        alert("Erro ao enviar a mensagem: " + error.text);
+                    });
+            });
+        </script>
     </section>
     
     <footer>
@@ -234,6 +252,7 @@
 
     <script src="JS/progress-bar.js"></script>
     <script src="JS/main-caroussel.js"></script>
+    
 </body>
 </html>
 
