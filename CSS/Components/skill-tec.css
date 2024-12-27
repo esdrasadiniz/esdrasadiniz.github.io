@@ -20,3 +20,42 @@
 .skill-tec .title {
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 1500px) {
+    .skill-tec {
+        font-size: 2vw;
+    }
+
+    .skill-tec .icon {
+        width: 5.5vw;
+        margin-right: 1vw;
+    }
+
+    .skill-tec .right {
+        width: 30vw;
+    }
+
+    .skill-tec .title {
+        margin-bottom: 0.5vw;
+    }
+    
+    .item-wrap.-skills .progress-bar {
+        height: 3vw;
+        width: 30vw;
+        border: 0.6vw solid black;
+    }
+
+    .item-wrap.-skills {
+        justify-content: center;
+    }
+    
+    .item-wrap.-skills .skill-tec {
+        width: 36vw;
+        margin-bottom: 3vw;
+    }
+    
+    .item-wrap.-skills .skill-tec:nth-child(odd) {
+        margin-right: 5vw;
+    }
+
+}

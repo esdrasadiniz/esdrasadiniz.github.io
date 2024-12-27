@@ -31,3 +31,17 @@
 .main-section.-contatos {
     background-color: #3A4042;
 }
+
+@media screen and (max-width: 1500px) {
+
+    .main-section {
+        padding: 5vw;
+
+    }
+    
+    .main-section .main-title {
+        font-size: 6vw;
+        margin-bottom: 6vw;
+    }
+    
+}
