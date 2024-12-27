@@ -30,7 +30,32 @@ header img:hover {
 
 @media screen and (max-width: 1500px) {
     header nav {
-        display: none;
+        position: fixed;
+        background-color: #43757e;
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        margin-right: 0;
+        padding-left: 30px;
+        padding-top: 30px;
+        gap: 10px;
+    }
+
+    header nav::before {
+        content: 'Menu';
+        font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        color: #FFF;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    header nav a {
+        display: flex;
     }
 }
 
