@@ -7,9 +7,29 @@
 }
 
 .title-box h1 {
-    margin-bottom: 28px;
+    margin-bottom: 2vw;
 }
 
+@media screen and (max-width: 1500px) {
+    .title-box {
+        padding: 5%;
+        box-shadow: 1.2vw 1.2vw 0 black;
+        margin-top: 11.5vw;
+    }
+
+    .title-box .main-title {
+        font-size: 4vw;
+        line-height: 5vw;
+        text-shadow: 0.7vw 0.7vw 0 black;
+    }
+    
+    .title-box .main-subtitle {
+        font-size: 2.5vw;
+        line-height: 4vw;
+        text-shadow: 0.7vw 0.7vw 0 black;
+    }
+
+}
 
 
 /* ANTES DE TENTAR O FLEX OU INLINE-FLEX COMO DISPLAY TENTE O INLINE-BLOCK.. 
