@@ -26,15 +26,20 @@ header img:hover {
     header .icon-menu {
         display: none;
     }    
+
+    header nav .icon-close {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1500px) {
     header nav {
         position: fixed;
+        box-sizing: border-box;
         background-color: #43757e;
         display: flex;
         flex-direction: column;
-        width: 55%;
+        width: 60%;
         height: 100%;
         top: 0;
         right: 0;
@@ -52,6 +57,12 @@ header img:hover {
         color: #FFF;
         text-align: left;
         margin-bottom: 30px;
+    }
+
+    header nav .icon-close {
+       position: absolute;
+       top: 5px;
+       right: 0;
     }
 
     header nav a {

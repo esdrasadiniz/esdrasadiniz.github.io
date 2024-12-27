@@ -1,0 +1,9 @@
+.icon-close {
+    color: white;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 20px;
+}
+
+.icon-close::before {
+    display: none;
+}

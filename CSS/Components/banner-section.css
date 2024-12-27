@@ -1,7 +1,7 @@
 .banner-section {
     background-image: url(../../assets/img/2.JPG);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position-x: center;
     height: 800px;
     border-bottom: 10px solid #000;
