@@ -43,3 +43,26 @@
 .button-arrow.-left::before {
     transform: rotate(180deg) translateX(10px);
 }
+
+@media screen and (max-width:1500px) {
+    .button-arrow {
+        box-shadow: 0.7vw 0.7vw 0 black;
+        width: 7vw;
+        height: 7vw;
+
+    }
+
+    .button-arrow::before {
+        width: 2vw;
+        height: 2vw;
+        border: 2vw solid transparent;
+        border-left: 3vw solid white;
+        transform: translateX(1.5vw);
+    
+    }
+
+    .button-arrow.-left::before {
+        transform: rotate(180deg) translateX(1.5vw);
+    }
+
+}

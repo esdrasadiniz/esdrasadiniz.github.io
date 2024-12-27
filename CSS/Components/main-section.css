@@ -24,10 +24,6 @@
     padding-left: 0;
 }
 
-.main-section.-sobre .main-text {
-    margin-top: 60px;
-}
-
 .main-section.-contatos {
     background-color: #3A4042;
 }
@@ -43,5 +39,5 @@
         font-size: 6vw;
         margin-bottom: 6vw;
     }
-    
+
 }

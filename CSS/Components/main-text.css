@@ -10,6 +10,17 @@
     min-height: 312px;
     padding-left: 60px;
     padding-right: 60px;
-    margin: auto;
     text-align: justify;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 1500px) {
+    .main-section.-sobre .main-text {
+        padding-left: 5vw;
+        padding-right: 5vw; 
+        font-size: 3.5vw;   
+        margin-top: 2vw;
+        min-height: 10vw;
+    }
+    
 }

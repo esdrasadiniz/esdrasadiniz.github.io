@@ -41,3 +41,15 @@
 .caroussel-section .button-arrow.-left {
     left: 15px;
 }
+
+@media screen and (max-width: 1500px) {
+    .caroussel-section .button-arrow {
+        position: absolute;
+        bottom: 9vw;
+    }
+
+    .caroussel-section {
+        margin-top: 0;
+    }
+    
+}

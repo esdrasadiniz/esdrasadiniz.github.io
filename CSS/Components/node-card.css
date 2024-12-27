@@ -48,26 +48,57 @@
     
 
     
-    .-node-card {
+    .node-card {
         font-size: 3vw;
         margin-bottom: 5vw;
 
     }
-    
+
+    .node-card .title {
+        font-size: 4vw;
+        margin-bottom: 5.5vw;
+    }
+
+    .node-card::before {
+        height: 4.5vw;
+        bottom: 14vw;
+        border: 0.5vw dashed black;
+
+    }
+
+    .caroussel-section::before {
+        bottom: 23vw;
+        left: 0;
+        border: 0.5vw dashed black;
+
+      }
+
+    .caroussel-section::after {
+        width: calc(100% - 18vw);
+        bottom: 23vw;
+        border: 0.5vw solid black;
+
+
+    }
+
     .node-card .logo {
         height: 12vw;
-        border: 0.7 solid black;
+        border: 0.9vw solid black;
         padding-right: 1vw;
         padding-left: 1vw;
     }
 
-    .-node-card img {
+    .node-card img {
         width: 12vw;
     }
 
     .item-wrap.-node-card {
-        width: 130vw;
-        transform: translateX(-180px);
+        width: 150vw;
+        transform: translateX(13vw);
     }
 
+    .caroussel-section {
+        padding-right: 14vw;
+        padding-left: 14vw;
+    }
 }
