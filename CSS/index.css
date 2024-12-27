@@ -23,11 +23,11 @@ header img:hover {
 }
 
 @media screen and (min-width: 1500px) {
-    header .icon-menu {
+    header .open-menu {
         display: none;
     }    
 
-    header nav .icon-close {
+    header nav .close-menu {
         display: none;
     }
 }
@@ -39,10 +39,10 @@ header img:hover {
         background-color: #43757e;
         display: flex;
         flex-direction: column;
-        width: 60%;
+        width: 70%;
         height: 100%;
         top: 0;
-        right: 0;
+        right: -100%;
         margin-right: 0;
         padding-left: 30px;
         padding-top: 30px;
@@ -59,7 +59,7 @@ header img:hover {
         margin-bottom: 30px;
     }
 
-    header nav .icon-close {
+    header nav .close-menu {
        position: absolute;
        top: 5px;
        right: 0;
