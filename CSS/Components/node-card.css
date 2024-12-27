@@ -43,3 +43,31 @@
 .node-card .logo.-getninjas, .logo.-collabcode {
     background-color: #F25A70;
 }
+
+@media screen and (max-width: 1500px) {
+    
+
+    
+    .-node-card {
+        font-size: 3vw;
+        margin-bottom: 5vw;
+
+    }
+    
+    .node-card .logo {
+        height: 12vw;
+        border: 0.7 solid black;
+        padding-right: 1vw;
+        padding-left: 1vw;
+    }
+
+    .-node-card img {
+        width: 12vw;
+    }
+
+    .item-wrap.-node-card {
+        width: 130vw;
+        transform: translateX(-180px);
+    }
+
+}
