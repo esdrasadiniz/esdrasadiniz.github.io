@@ -18,3 +18,17 @@
 .project-card.-portifolio {
     background-color: #E6626F;
 }
+
+@media screen and (max-width: 1500px) {
+    .project-card {
+        width: 27vw;
+        height: 27vw;
+        box-shadow: 0.7vw 0.7vw 0 white;
+    }
+
+    .project-card img {
+        width: 27vw;
+        height: 27vw;
+    }
+    
+}
