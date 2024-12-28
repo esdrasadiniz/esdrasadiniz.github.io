@@ -34,3 +34,37 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@media screen and (max-width: 1500px) {
+    .main-form input {
+        border: 0.7vw solid #000;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        height: 5vw;
+    }
+
+    .main-form .form-item.-msg textarea {
+        height: 30vw;
+        border: 0.7vw solid #000;
+    }
+
+    .main-form {
+        color: white;
+        font-size: 3.5vw;
+        font-weight: 300;
+    }
+
+    .main-form label {
+        line-height: 6vw;
+    }
+
+    .main-form .form-item {
+        margin-bottom: 4vw;
+    }
+
+    .main-form .main-button {
+        margin-top: 3vw;
+        font-size: 5vw;
+        height: 10vw;
+    }
+}

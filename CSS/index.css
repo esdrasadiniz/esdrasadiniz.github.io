@@ -35,6 +35,20 @@ header img:hover {
 }
 
 @media screen and (max-width: 1500px) {
+    
+    header {
+        padding: 2.5vw 1vw;
+        align-items: center;
+    }
+
+    header .main-subtitle {
+        font-size: 2.7vw;
+        line-height: 4vw;
+        text-shadow: 0.7vw 0.7vw 0 black;
+        margin-left: 3vw;
+
+    }
+    
     header nav {
         position: fixed;
         box-sizing: border-box;
@@ -46,30 +60,43 @@ header img:hover {
         top: 0;
         right: -100%;
         margin-right: 0;
-        padding-left: 30px;
-        padding-top: 30px;
-        gap: 10px;
+        padding-left: 8vw;
+        padding-top: 12vw;
+        gap: 3vw;
         transition: transform 0.2s linear;
     }
 
     header nav::before {
         content: 'Menu';
         font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
-        font-size: 30px;
+        font-size: 9vw;
         font-weight: 400;
         color: #FFF;
         text-align: left;
-        margin-bottom: 30px;
+        margin-bottom: 6vw;
     }
 
     header nav .close-menu {
        position: absolute;
-       top: 5px;
+       top: 2vw;
        right: 0;
     }
 
     header nav a {
         display: flex;
+        margin-right: 7vw;
+        line-height: 14vw;
+        font-size: 5vw;
+        margin-right: 6vw;
+        line-height: 14vw;
+    }
+
+    header nav .main-button {
+        height: 12.5vw;
+        width: 52vw;
+        padding: 0;
+        font-size: 5.5vw;
+        line-height: 12.3vw;    
     }
 }
 
@@ -126,6 +153,15 @@ footer {
 
 footer img {
     margin: 20px;
+}
+
+@media screen and (max-width: 1500px) {
+    
+    footer img {
+        margin: 4vw;
+        width: 7vw;
+        height: 7vw;
+    }
 }
 
 /* PALETA DE CORES
